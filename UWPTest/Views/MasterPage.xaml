@@ -15,8 +15,8 @@
                   SeparatorVisibility="None">
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type views:MasterItem}">
-                    <views:MasterItem Title="Promoções" TargetType="{x:Type views:PromotionsPage}"/>
-                    <views:MasterItem Title="Conta" TargetType="{x:Type views:AccountPage}"/>
+                    <views:MasterItem Title="Promotions" TargetType="{x:Type views:PromotionsPage}"/>
+                    <views:MasterItem Title="Account" TargetType="{x:Type views:AccountPage}"/>
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>

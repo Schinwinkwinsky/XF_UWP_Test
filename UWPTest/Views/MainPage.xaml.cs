@@ -26,7 +26,7 @@ namespace UWPTest.Views
 
         private async void OnSelectedItem(MasterPage sender, MasterItem masterItem)
         {
-            if (masterItem.Title.Equals("Conta"))
+            if (masterItem.Title.Equals("Account"))
             {
                 if (App.isLogged)
                     Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(AccountPage)));
